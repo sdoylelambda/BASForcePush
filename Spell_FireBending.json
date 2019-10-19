@@ -1,0 +1,109 @@
+{
+  "$type": "BS.SpellData, Assembly-CSharp",
+  "id": "Oli8BendFire",
+  "version": 1,
+  "category": 0,
+  "prefabPath": "@oli8bending:FireBendingSpell.prefab",
+  "caption": "Bend Fire",
+  "runeString": "f",
+  "type": 1,
+  "impulseMinMax": {
+      "x": 16.0,
+      "y": 70.0
+  },
+  "damageMinMax": {
+      "x": 5.0,
+      "y": 20.0
+  },
+  "recoilMinMax": {
+      "x": 0.9,
+      "y": 1.0
+  },
+  "maxVerticalAngle": 0.0,
+  "maxHorizontalAngle": 0.0,
+  "hitRagdollDelay": 0.2,
+  "playerDamageMultiplier": 1.0,
+  "throwedMultiplier": 2.0,
+  "badAngleDamageType": 0,
+  "badAngleDamage": 1.0,
+  "badAngleRecoilMultiplier": 0.0,
+  "knockoutOnHit": 2,
+  "knockoutOnThrow": 2,
+  "knockoutMinImpulse": 50.0,
+  "knockoutDurationMinMax": {
+      "x": 1.0,
+      "y": 2.0
+  },
+  "addForce": 1700.0,
+  "addForceState": 2,
+  "addForceTargetType": 2,
+  "addForceMode": 5,
+  "addForceDuration": 0.15,
+  "addForceRagdollPartMultiplier": 2.0,
+  "addForceRagdollOtherMultiplier": 0.5,
+  "addForceSlowMoMultiplier": 1.1,
+  "addForceKnockoutOnly": true,
+  "addForceNormalize": false,
+  "penetrationMultiplier": 1.0,
+  "penetrationDamperMultiplier": 2000.0,
+  "penetrationSpring": 0.0,
+  "penetrationVelocityAdd": 0.0,
+  "penetrationDamperCurve": {
+      "keys": [
+          {
+              "time": 0.0,
+              "value": 0.5,
+              "inTangent": 1.43304741,
+              "outTangent": 1.43304741,
+              "inWeight": 0.0,
+              "outWeight": 0.0272479467,
+              "weightedMode": 0,
+              "tangentMode": 0
+          },
+          {
+              "time": 1.0,
+              "value": 0.918095231,
+              "inTangent": 0.935204148,
+              "outTangent": 0.935204148,
+              "inWeight": 0.033606112,
+              "outWeight": 0.0,
+              "weightedMode": 0,
+              "tangentMode": 0
+          }
+      ],
+      "length": 2,
+      "preWrapMode": 8,
+      "postWrapMode": 8
+  },
+  "penetrationFxExitDelay": 0.0,
+  "penetrationImpactVelocityAdd": 0.0,
+  "penetrationJointMaxForce": 1000.0,
+  "pierceExitOnMaxDepth": false,
+  "drawCutMaxDot": 0.2,
+  "drawCutMultiplier": 1.0,
+  "sliceMultiplier": 1.0
+}
+
+  "imageColor": {
+    "a": 1.0,
+    "r": 0.33333361,
+    "g": 0.3647059,
+    "b": 0.3745099
+  },
+  "rimColor": {
+    "a": 1.0,
+    "r": 0.254902,
+    "g": 0.445098054,
+    "b": 0.441176534
+  },
+  "innerColor": {
+    "a": 1.0,
+    "r": 0.33333361,
+    "g": 0.5647059,
+    "b": 0.5745099
+  },
+  "audioContainerPath": "Spell_LightningSelect",
+  "audioPitch": 1.0,
+  "spellId1": "",
+  "spellId2": ""
+}

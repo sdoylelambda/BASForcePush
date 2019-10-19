@@ -1,0 +1,10 @@
+{
+  "$type": "BS.LevelData, Assembly-CSharp",
+  "id": "Master",
+  "version": 1,
+  "modules": [
+	{
+	"$type": "Bending.EntryPoint, Bending"
+	}
+	]
+}

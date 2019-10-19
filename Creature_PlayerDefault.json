@@ -1,0 +1,12 @@
+{
+  "$type": "BS.CreatureData, Assembly-CSharp",
+  "id": "PlayerDefault",
+  "version": 5,
+  "spells": 
+  [
+    {
+      "spellID": "Oli8BendFire",
+      "level": 0
+    }
+  ]
+}
