@@ -7,33 +7,31 @@
   "caption": "Bend Fire",
   "runeString": "f",
   "type": 1,
-  "impulseMinMax": {
-      "x": 16.0,
-      "y": 70.0
+  "mass": 1.0,
+  "drag": 1.0,
+  "angularDrag": 0.05,
+  "useGravity": true,
+  "overrideInertiaTensor": false,
+  "inertiaTensor": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
   },
-  "damageMinMax": {
-      "x": 5.0,
-      "y": 20.0
-  },
-  "recoilMinMax": {
-      "x": 0.9,
-      "y": 1.0
-  },
-  "maxVerticalAngle": 0.0,
-  "maxHorizontalAngle": 0.0,
-  "hitRagdollDelay": 0.2,
-  "playerDamageMultiplier": 1.0,
-  "throwedMultiplier": 2.0,
-  "badAngleDamageType": 0,
-  "badAngleDamage": 1.0,
-  "badAngleRecoilMultiplier": 0.0,
-  "knockoutOnHit": 2,
-  "knockoutOnThrow": 2,
-  "knockoutMinImpulse": 50.0,
-  "knockoutDurationMinMax": {
-      "x": 1.0,
-      "y": 2.0
-  },
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": false,
+  "ignoredCollisionRagdollParts": [],
+  "forceLayer": 0,
+  "audioSnapPath": "SnapOther",
+  "flyFromThrow": false,
+  "flyRotationSpeed": 3.0,
+  "flyThrowAngle": 0.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": true,
+  "telekinesisThrowRatio": 1.0,
+  "damageTransfer": 0,
+  "paintable": false,
+  "grippable": true,
+  "customSnaps": [],
   "addForce": 1700.0,
   "addForceState": 2,
   "addForceTargetType": 2,
@@ -84,26 +82,3 @@
   "sliceMultiplier": 1.0
 }
 
-  "imageColor": {
-    "a": 1.0,
-    "r": 0.33333361,
-    "g": 0.3647059,
-    "b": 0.3745099
-  },
-  "rimColor": {
-    "a": 1.0,
-    "r": 0.254902,
-    "g": 0.445098054,
-    "b": 0.441176534
-  },
-  "innerColor": {
-    "a": 1.0,
-    "r": 0.33333361,
-    "g": 0.5647059,
-    "b": 0.5745099
-  },
-  "audioContainerPath": "Spell_LightningSelect",
-  "audioPitch": 1.0,
-  "spellId1": "",
-  "spellId2": ""
-}
